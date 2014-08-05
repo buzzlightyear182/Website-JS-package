@@ -4,6 +4,7 @@
   "authors": [
     "buzzlightyear182 <jane.buzzlightyear@gmail.com>"
   ],
+  "directory": "js/vendors",
   "license": "MIT",
   "ignore": [
     "**/.*",
@@ -11,5 +12,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.1",
+    "modernizr": "~2.8.3"
+  }
 }

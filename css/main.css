@@ -1,5 +1,10 @@
 body {
-		font-family: Helvetica, sans-serif;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
+	max-width: 1200px;
+}
+
+#container {
+	margin: auto;
 }
 
 #button {
@@ -7,4 +12,12 @@ body {
 	color: white;
 	padding: 10px;
 	border-radius: 10px;
+  -moz-box-shadow:    3px 3px 1px 1px #ccc;
+  -webkit-box-shadow: 3px 3px 1px 1px #ccc;
+  box-shadow:         3px 3px 1px 1px #ccc;
+  border: 0px;
+}
+
+#button:hover {
+	background-color: #9b59b6;
 }
